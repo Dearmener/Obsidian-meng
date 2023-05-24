@@ -11,8 +11,12 @@
             "id": "fe0e551f291ae50f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "1-日记/1-LOG.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -39,25 +43,26 @@
             }
           },
           {
-            "id": "7d35baa07e3612d0",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "6ec686a48351b02e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "0fa2ad689620a19f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d7f43732f88cb2e7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           }
@@ -72,6 +77,27 @@
     "type": "split",
     "children": [
       {
+        "id": "2bce6471bae1a717",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d35baa07e3612d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "dd78807a1bd29ef9",
         "type": "tabs",
         "children": [
@@ -81,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-日记/1-LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-日记/1-LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "d7f43732f88cb2e7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
+              "state": {
+                "file": "1-日记/1-LOG.md"
+              }
             }
           }
         ],
@@ -134,8 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,26 +173,26 @@
   },
   "active": "fe0e551f291ae50f",
   "lastOpenFiles": [
+    "1-Home.md",
+    "1-日记/1-LOG.md",
+    "8-InBox/网页收录.md",
+    "Templater/daily note.md",
+    "Day Planners/Day Planner-20230524.md",
+    "Day Planners/Day Planner-20230522.md",
+    "Day Planners",
     "1-Paper/直接从双峰直方图确定二值化阈值.md",
     "1-Paper/基于递进式卷积网络的农业命名实体识别方法.md",
     "1-Paper/基于双目视觉的四边形闭环跟踪算法.md",
-    "1-Home.md",
-    "Day Planners/Day Planner-20230524.md",
-    "8-InBox/网页收录.md",
     "8-InBox/[搭建自己的内网穿透，远程桌面服务.md",
-    "1-日记/1-LOG.md",
     "8-InBox",
     "Day Planners/Day Planner-20230523.md",
     "1-日记/2023-05-19.md",
     "1-日记/2023-05-22.md",
-    "Day Planners/Day Planner-20230522.md",
-    "Day Planners",
     "1-日记/2023-05-21.md",
     "1-日记/2023-05-20.md",
     "9-Attachment/IMG_5213.jpeg",
     "9-Attachment/IMG_5212.jpeg",
     "9-Attachment/Pasted image 20230519170711.png",
-    "Templater/daily note.md",
     "1-日记/Untitled.md",
     "9-Attachment",
     "日记/2023-05-20.md",
