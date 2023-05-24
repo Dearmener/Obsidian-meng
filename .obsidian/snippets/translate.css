@@ -1,0 +1,28 @@
+.trans-text-container {
+  display: inline-block;
+  line-height: 24px;
+}
+.trans-chinese {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  text-decoration: underline; /* 添加下划线效果 */
+}
+.trans-english {
+  display: inline-block;
+  float: right;
+  font-size: 10px;
+  height: 24px;
+  line-height: 24px;
+  vertical-align: bottom;
+  color: #f0932b;
+}
+
+.markdown-source-view.mod-cm6 .cm-embed-block:hover {
+  box-shadow: 0 0px 0px 0 rgba(var(--mono-rgb-100), 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+mark {
+  background-color: transparent;
+}

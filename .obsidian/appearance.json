@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "tag-pill",
+    "translate"
+  ],
+  "cssTheme": "Things",
+  "textFontFamily": "LXGW WenKai,JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono",
+  "theme": "moonstone"
+}

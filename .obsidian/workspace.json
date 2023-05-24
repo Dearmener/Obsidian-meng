@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "e272da6f2d031b1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2267dddc3cd56a23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe0e551f291ae50f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "49959d00c8e092f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e57163428a0d1c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03d80f7efd8e2495",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7d35baa07e3612d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6ec686a48351b02e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 257.5
+  },
+  "right": {
+    "id": "16a7fc2b6dda5ec3",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd78807a1bd29ef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a3e5133c1ea7d7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "044aa5a9471432c7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6fa14f7be5a131a7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c2a7c25744dacdb7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "d7f43732f88cb2e7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "templater-obsidian:Templater": false,
+      "audio-recorder:开始/结束录音": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "fe0e551f291ae50f",
+  "lastOpenFiles": [
+    "1-Paper/直接从双峰直方图确定二值化阈值.md",
+    "1-Paper/基于递进式卷积网络的农业命名实体识别方法.md",
+    "1-Paper/基于双目视觉的四边形闭环跟踪算法.md",
+    "1-Home.md",
+    "Day Planners/Day Planner-20230524.md",
+    "8-InBox/网页收录.md",
+    "8-InBox/[搭建自己的内网穿透，远程桌面服务.md",
+    "1-日记/1-LOG.md",
+    "8-InBox",
+    "Day Planners/Day Planner-20230523.md",
+    "1-日记/2023-05-19.md",
+    "1-日记/2023-05-22.md",
+    "Day Planners/Day Planner-20230522.md",
+    "Day Planners",
+    "1-日记/2023-05-21.md",
+    "1-日记/2023-05-20.md",
+    "9-Attachment/IMG_5213.jpeg",
+    "9-Attachment/IMG_5212.jpeg",
+    "9-Attachment/Pasted image 20230519170711.png",
+    "Templater/daily note.md",
+    "1-日记/Untitled.md",
+    "9-Attachment",
+    "日记/2023-05-20.md",
+    "日记/2023-05-19.md",
+    "日记/2023-05-18.md",
+    "1-Paper",
+    "2023-05-18.md",
+    "日记/Untitled.md"
+  ]
+}
