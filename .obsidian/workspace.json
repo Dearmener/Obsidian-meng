@@ -11,12 +11,8 @@
             "id": "fe0e551f291ae50f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1-日记/1-LOG.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -107,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-日记/1-LOG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +119,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-日记/1-LOG.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +140,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "1-日记/1-LOG.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -173,8 +165,14 @@
   },
   "active": "fe0e551f291ae50f",
   "lastOpenFiles": [
-    "1-Home.md",
+    "1-日记/2023-05-18.md",
+    "1-日记/2023-05-20.md",
+    "1-日记/2023-05-19.md",
+    "1-日记/2023-05-21.md",
+    "1-日记/2023-05-22.md",
+    "1-日记/2023-05-23.md",
     "1-日记/1-LOG.md",
+    "1-Home.md",
     "8-InBox/网页收录.md",
     "Templater/daily note.md",
     "Day Planners/Day Planner-20230524.md",
@@ -186,10 +184,6 @@
     "8-InBox/[搭建自己的内网穿透，远程桌面服务.md",
     "8-InBox",
     "Day Planners/Day Planner-20230523.md",
-    "1-日记/2023-05-19.md",
-    "1-日记/2023-05-22.md",
-    "1-日记/2023-05-21.md",
-    "1-日记/2023-05-20.md",
     "9-Attachment/IMG_5213.jpeg",
     "9-Attachment/IMG_5212.jpeg",
     "9-Attachment/Pasted image 20230519170711.png",
