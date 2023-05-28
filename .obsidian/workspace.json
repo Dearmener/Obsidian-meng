@@ -11,11 +11,28 @@
             "id": "fe0e551f291ae50f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Templater/daily note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d7697acc31c468c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-日记/2023-05-28.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1-日记/2023-05-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "1-日记/2023-05-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +159,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "1-日记/2023-05-28.md"
+              }
             }
           }
         ],
@@ -163,18 +184,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "fe0e551f291ae50f",
+  "active": "6d7697acc31c468c",
   "lastOpenFiles": [
+    "Quick Latex用法.md",
+    "1-日记/2023-05-28.md",
+    "Templater/daily note.md",
+    "1-日记/2023-05-19.md",
     "1-日记/2023-05-18.md",
     "1-日记/2023-05-20.md",
-    "1-日记/2023-05-19.md",
     "1-日记/2023-05-21.md",
     "1-日记/2023-05-22.md",
     "1-日记/2023-05-23.md",
     "1-日记/1-LOG.md",
     "1-Home.md",
     "8-InBox/网页收录.md",
-    "Templater/daily note.md",
     "Day Planners/Day Planner-20230524.md",
     "Day Planners/Day Planner-20230522.md",
     "Day Planners",
