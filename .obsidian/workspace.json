@@ -8,24 +8,36 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe0e551f291ae50f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templater/daily note.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e57dce4621ebf761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "1-日记/2023-05-28.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "366c42801e46df6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick Latex用法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82ce47fb17456d19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templater/daily note.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -181,7 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,12 +210,12 @@
   },
   "active": "e57dce4621ebf761",
   "lastOpenFiles": [
-    "1-日记/1-LOG.md",
     "Templater/daily note.md",
-    "1-Home.md",
     "1-日记/2023-05-28.md",
     "Quick Latex用法.md",
     "1-日记/2023-05-19.md",
+    "1-日记/1-LOG.md",
+    "1-Home.md",
     "1-日记/2023-05-18.md",
     "1-日记/2023-05-20.md",
     "1-日记/2023-05-21.md",
