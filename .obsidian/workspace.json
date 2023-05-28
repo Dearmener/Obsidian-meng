@@ -6,6 +6,7 @@
       {
         "id": "2267dddc3cd56a23",
         "type": "tabs",
+        "dimension": 38.5480572597137,
         "children": [
           {
             "id": "e57dce4621ebf761",
@@ -25,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Latex用法.md",
+                "file": "1-日记/2023-05-28.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,6 +53,49 @@
                 "file": "1-Home.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "178449c9ffbbf360",
+        "type": "tabs",
+        "dimension": 61.451942740286306,
+        "children": [
+          {
+            "id": "077dc6af61de1add",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "1-日记/2023-05-28.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "file.cday=today()",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
               }
             }
           }
@@ -102,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -193,7 +236,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,14 +252,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e57dce4621ebf761",
+  "active": "366c42801e46df6b",
   "lastOpenFiles": [
+    "Quick Latex用法.md",
     "Templater/daily note.md",
     "1-日记/2023-05-28.md",
-    "Quick Latex用法.md",
+    "2023-05-29.md",
+    "1-Home.md",
     "1-日记/2023-05-19.md",
     "1-日记/1-LOG.md",
-    "1-Home.md",
     "1-日记/2023-05-18.md",
     "1-日记/2023-05-20.md",
     "1-日记/2023-05-21.md",
