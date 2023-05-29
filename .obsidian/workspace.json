@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2267dddc3cd56a23",
+        "id": "e6631e64fce4391e",
         "type": "tabs",
         "children": [
           {
-            "id": "fe0e551f291ae50f",
+            "id": "6c395bae3640f926",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-日记/1-LOG.md",
+                "file": "Templater/daily note.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-日记/1-LOG.md",
+                "file": "Templater/daily note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-日记/1-LOG.md",
+                "file": "Templater/daily note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-日记/1-LOG.md"
+                "file": "Templater/daily note.md"
               }
             }
           }
@@ -166,16 +166,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "templater-obsidian:Templater": false,
       "audio-recorder:开始/结束录音": false,
+      "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "fe0e551f291ae50f",
+  "active": "6c395bae3640f926",
   "lastOpenFiles": [
+    "1-日记/2023-05-29.md",
+    "7-NoteSomething/装机之后的一些设置.md",
     "1-Home.md",
-    "1-日记/1-LOG.md",
+    "7-NoteSomething",
+    "1-日记/2023-05-22.md",
     "8-InBox/网页收录.md",
+    "1-日记/1-LOG.md",
+    "9-Attachment/IMG_5212.jpeg",
     "Templater/daily note.md",
     "Day Planners/Day Planner-20230524.md",
     "Day Planners/Day Planner-20230522.md",
@@ -187,11 +192,9 @@
     "8-InBox",
     "Day Planners/Day Planner-20230523.md",
     "1-日记/2023-05-19.md",
-    "1-日记/2023-05-22.md",
     "1-日记/2023-05-21.md",
     "1-日记/2023-05-20.md",
     "9-Attachment/IMG_5213.jpeg",
-    "9-Attachment/IMG_5212.jpeg",
     "9-Attachment/Pasted image 20230519170711.png",
     "1-日记/Untitled.md",
     "9-Attachment",
