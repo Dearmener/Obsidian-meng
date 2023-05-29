@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-Paper/Paper-Home.md",
+                "file": "Templater/daily note.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "1-Paper/Paper-Home.md",
+                "file": "Templater/daily note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -134,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1-Paper/Paper-Home.md",
+                "file": "Templater/daily note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1-Paper/Paper-Home.md",
+                "file": "Templater/daily note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1-Paper/Paper-Home.md"
+                "file": "Templater/daily note.md"
               }
             }
           }
@@ -240,10 +241,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "e57dce4621ebf761",
+  "active": "0fa2ad689620a19f",
   "lastOpenFiles": [
-    "1-Paper/基于自适应模型预测的无人车跟踪控制方法研究.md",
     "1-Paper/Paper-Home.md",
+    "1-Paper/基于自适应模型预测的无人车跟踪控制方法研究.md",
     "1-Paper/基于递进式卷积网络的农业命名实体识别方法.md",
     "1-Paper/基于双目视觉的四边形闭环跟踪算法.md",
     "1-Paper/直接从双峰直方图确定二值化阈值.md",
