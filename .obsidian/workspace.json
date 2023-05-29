@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e6631e64fce4391e",
+        "id": "2267dddc3cd56a23",
         "type": "tabs",
         "children": [
           {
-            "id": "6c395bae3640f926",
+            "id": "e57dce4621ebf761",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,6 +16,74 @@
                 "file": "Templater/daily note.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6d7697acc31c468c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a5452815e757706a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7cde7a8186428daf",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Templater/daily note.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [
+                    {
+                      "query": "path:1-日记",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14048348
+                      }
+                    },
+                    {
+                      "query": "",
+                      "color": {
+                        "a": 1,
+                        "rgb": 14069084
+                      }
+                    }
+                  ],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.9602645007922175,
+                  "close": true
+                }
               }
             }
           }
@@ -66,7 +134,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -156,7 +225,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 313.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,13 +236,14 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "audio-recorder:开始/结束录音": false,
       "templater-obsidian:Templater": false,
+      "audio-recorder:开始/结束录音": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6c395bae3640f926",
+  "active": "0fa2ad689620a19f",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "1-日记/2023-05-19.md",
     "1-日记/2023-05-20.md",
     "1-日记/2023-05-21.md",
@@ -185,24 +256,40 @@
     "8-InBox/网页收录.md",
     "1-日记/1-LOG.md",
     "9-Attachment/IMG_5212.jpeg",
+=======
+    "1-Paper/Paper-Home.md",
+    "1-Paper/基于自适应模型预测的无人车跟踪控制方法研究.md",
+    "1-Paper/基于递进式卷积网络的农业命名实体识别方法.md",
+    "1-Paper/基于双目视觉的四边形闭环跟踪算法.md",
+    "1-Paper/直接从双峰直方图确定二值化阈值.md",
+    "Quick Latex用法.md",
+    "1-日记/2023-05-28.md",
+    "1-日记/2023-05-22.md",
+    "Templater/daily note.md",
+    "2023-05-27.md",
+    "2023-05-29.md",
+    "1-Home.md",
+    "1-日记/2023-05-19.md",
+    "1-日记/1-LOG.md",
+    "1-日记/2023-05-18.md",
+    "1-日记/2023-05-20.md",
+    "1-日记/2023-05-21.md",
+    "1-日记/2023-05-23.md",
+    "8-InBox/网页收录.md",
+>>>>>>> 24adb8903928d233aaf3c3729923b81531d8876a
     "Day Planners/Day Planner-20230524.md",
     "Day Planners/Day Planner-20230522.md",
     "Day Planners",
-    "1-Paper/直接从双峰直方图确定二值化阈值.md",
-    "1-Paper/基于递进式卷积网络的农业命名实体识别方法.md",
-    "1-Paper/基于双目视觉的四边形闭环跟踪算法.md",
     "8-InBox/[搭建自己的内网穿透，远程桌面服务.md",
     "8-InBox",
     "Day Planners/Day Planner-20230523.md",
     "9-Attachment/IMG_5213.jpeg",
+    "9-Attachment/IMG_5212.jpeg",
     "9-Attachment/Pasted image 20230519170711.png",
     "1-日记/Untitled.md",
     "9-Attachment",
     "日记/2023-05-20.md",
     "日记/2023-05-19.md",
-    "日记/2023-05-18.md",
-    "1-Paper",
-    "2023-05-18.md",
-    "日记/Untitled.md"
+    "1-Paper"
   ]
 }
