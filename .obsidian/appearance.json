@@ -7,5 +7,6 @@
   "cssTheme": "Things",
   "textFontFamily": "LXGW WenKai,JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "baseFontSize": 17
 }
