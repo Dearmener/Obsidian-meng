@@ -1,6 +1,7 @@
 ---
 title: 一种可搜索无限个邻域的改进A*算法
 authors: [ 辛煜,  梁华为,  杜明博,  梅涛,  王智灵,  江如海]
+authorsString:  辛煜,  梁华为,  杜明博,  梅涛,  王智灵,  江如海
 year: 2014
 publisher: 
 readTime: 2023-06-01 01:57
