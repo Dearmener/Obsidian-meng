@@ -38,6 +38,10 @@ $$
 \begin{align*}
 \alpha \\
 \sqrt{asdf}\\
-\cdot
+\cdot\\
+\text{fasdf}\\
+\infty\\
+
+
 \end{align*}
 $$
