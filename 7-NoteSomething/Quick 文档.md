@@ -17,3 +17,16 @@ $$
 $$
 x+(x+\frac{1}{2})
 $$
+$$
+\begin{align*}
+ia\\
+sdaf\\
+fads\\
+\frac{f}{a}\\
+int\\ main /\frac{}{}man\\
+jdak .n s
+\end{align*}
+$$
+$$
+\begin{pmatrix}a & b & c & d \\ e & f & g & h \\ i & j & k & l \\ m  & n & o & p\end{pmatrix}
+$$
