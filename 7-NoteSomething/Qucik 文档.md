@@ -1,5 +1,6 @@
 [[Quick Latex用法]]
 ## 功能
+### 4 在`\sum \int \frac`后自动加上大括号
 ![[Pasted image 20230602145833.png]]
 $$
 \left(\sum\limits_{i=1}^{n} x+1\right)
