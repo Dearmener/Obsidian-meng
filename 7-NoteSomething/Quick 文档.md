@@ -45,7 +45,7 @@ $$
 \times\\
 fdas
 \quad asdf fdas dsaf ds af\\
-\quad fadsfasdfasdfasdf fasdf sdkjlfjsdathisda;fj Jk\\
+\quad fadsfasdfasdfasdfi \quad fasdf sdkjlfjsdathisda;fj Jk\\
 
 \end{align*}
 $$
