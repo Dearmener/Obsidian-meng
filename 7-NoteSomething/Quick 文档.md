@@ -30,3 +30,14 @@ $$
 $$
 \begin{pmatrix}a & b & c & d \\ e & f & g & h \\ i & j & k & l \\ m  & n & o & p\end{pmatrix}
 $$
+$$
+\alpha \\
+\mathbf{thishissoemitndkjakdut}
+$$
+$$
+\begin{align*}
+\alpha \\
+\sqrt{asdf}\\
+\cdot
+\end{align*}
+$$
