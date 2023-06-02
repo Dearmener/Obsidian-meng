@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30f4fe14-b665-471c-ba19-b0a8b949262a" name="Changes" comment="切换" />
+    <list default="true" id="443e94a3-7d2c-4d22-81a2-0978e4d67038" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_6_2_14_21_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_6_2_14_21_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/daily-notes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/daily-notes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/hotkeys.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/hotkeys.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/dataview/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/dataview/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-git/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-git/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-git/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-git/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/quick-latex/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/quick-latex/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/snippets/translate.css" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/snippets/translate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/themes/Things/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/themes/Things/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Paper/Paper-Home.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-Paper/Paper-Home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-Paper/直接从双峰直方图确定二值化阈值.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-Paper/直接从双峰直方图确定二值化阈值.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-日记/2023-05-19.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-日记/2023-05-19.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-日记/2023-05-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-日记/2023-05-20.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1-日记/2023-05-28.md" beforeDir="false" afterPath="$PROJECT_DIR$/1-日记/2023-05-28.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-Attachment/Pasted image 20230530121135.png" beforeDir="false" afterPath="$PROJECT_DIR$/9-Attachment/Pasted image 20230530121135.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quick Latex用法.md" beforeDir="false" afterPath="$PROJECT_DIR$/Quick Latex用法.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,20 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Obsidian-meng",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Obsidian-meng&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
