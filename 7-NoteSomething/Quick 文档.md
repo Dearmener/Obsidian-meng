@@ -49,3 +49,17 @@ fdas
 
 \end{align*}
 $$
+
+
+## Text Generate
+使用latex生成一个4* 4的矩阵
+
+
+$$
+\begin{pmatrix}
+a & b & c & d \\
+e & f & g & h \\
+i & j & k & l \\
+m & n & o & p
+\end{pmatrix}
+$$
