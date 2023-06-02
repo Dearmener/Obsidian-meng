@@ -41,7 +41,11 @@ $$
 \cdot\\
 \text{fasdf}\\
 \infty\\
-
+\binom{5}{22} \\
+\times\\
+fdas
+\quad asdf fdas dsaf ds af\\
+\quad fadsfasdfasdfasdf fasdf sdkjlfjsdathisda;fj Jk\\
 
 \end{align*}
 $$
