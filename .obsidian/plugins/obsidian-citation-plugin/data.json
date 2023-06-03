@@ -2,7 +2,7 @@
   "citationExportFormat": "csl-json",
   "literatureNoteTitleTemplate": "{{title}}",
   "literatureNoteFolder": "1-Paper",
-  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\npublisher: [{{publisher}}]\npublisherString: {{publisher}}\nreadTime: <% tp.file.creation_date() %>\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n[PDF]({{zoteroSelectURI}})\n\n## 摘要\n{{abstract}}\n",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{year}}\npublisher: [{{publisher}}]\npublisherString: [{{authorString}}]\nreadTime: <% tp.file.creation_date() %>\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n[PDF]({{zoteroSelectURI}})\n\n## 摘要\n{{abstract}}\n",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "E:\\Zotero\\我的文库.json"
