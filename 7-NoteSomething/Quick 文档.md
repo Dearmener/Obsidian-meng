@@ -63,3 +63,20 @@ i & j & k & l \\
 m & n & o & p
 \end{pmatrix}
 $$
+使用latex生产一个4*16的矩阵jk
+
+可以使用\begin{matrix}和\end{matrix}命令来创建矩阵，其中每个元素用&符号分隔，每行用\\符号分隔。例如，以下代码将创建一个4×16的矩阵：
+$$
+\begin{matrix}
+a_{1,1} & a_{1,2} & \cdots & a_{1,16}\\
+a_{2,1} & a_{2,2} & \cdots & a_{2,16}\\
+\vdots  & \vdots  & \ddots & \vdots \\
+a_{4,1} & a_{4,2} & \cdots & a_{4,16}
+\end{matrix}
+你可以根据需要更改矩阵的元素。
+$$
+
+$$
+
+\begin{pmatrix} 1 & 2 & 2 & 3 & 123 \\ 123  & daf & fa & fda & fdsa\\ 123 & f_{x} fsda  & fa & fdsa & f & \\ 123dfa & fa & fdsaa & fdsf & fas \\ \end{pmatrix}
+$$
