@@ -80,3 +80,8 @@ $$
 
 \begin{pmatrix} 1 & 2 & 2 & 3 & 123 \\ 123  & daf & fa & fda & fdsa\\ 123 & f_{x} fsda  & fa & fdsa & f & \\ 123dfa & fa & fdsaa & fdsf & fas \\ \end{pmatrix}
 $$
+在markdown中，使用latex写一个麦克韦斯方程放在下方
+
+$$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$$
+
+$$\nabla \times \vec{B} = \mu_0\left(\vec{J}+\epsilon_0\frac{\partial \vec{E}}{\partial t}\right)$$
