@@ -73,4 +73,5 @@
 body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-vertical.mod-root > div > div.workspace-tab-container > div > div > div.view-content{
   padding-left: 35px;
   border: 2px solid black;
+  background-color: rgb(228, 221, 195);
 }

@@ -21,7 +21,6 @@
 .markdown-source-view.mod-cm6 .cm-embed-block:hover {
   box-shadow: 0 0px 0px 0 rgba(var(--mono-rgb-100), 0.25);
   transition: all 0.2s ease-in-out;
-  background: rgb(228, 221, 195);
 }
 
 mark {
