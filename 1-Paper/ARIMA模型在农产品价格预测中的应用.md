@@ -1,12 +1,12 @@
 ---
 title: ARIMA模型在农产品价格预测中的应用
-authors: 
+authors: 刘峰, 王儒敬, 李传席
 year: 
 publisher: []
 publisherString: [刘峰, 王儒敬, 李传席]
 Journal: 
 readTime: 2023-06-15 18:26
-关键词：
+关键词：Autoregressive Integrated Moving Average Mode(lARIMA),price trend,time series,价格趋势 prices of agricultural products,农产品价格,时间序列,自回归移动平均模型
 status: 未阅读
 ---
 [[2023-06-15]]
