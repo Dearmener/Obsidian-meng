@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "{{title}}",
   "literatureNoteFolder": "1-Paper",
-  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{author}}\nyear: {{date}}\npublisher: [{{publisher}}]\npublisherString: [{{authorString}}]\nJournal: {{journaltitle}}\nreadTime: <% tp.file.creation_date() %>\nguan'jia\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n**阅读PDF：** [PDF]({{zoteroSelectURI}})\n**URL：** {{URL}}\n## 摘要\n{{abstract}}",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{author}}\nyear: {{date}}\npublisher: [{{publisher}}]\npublisherString: [{{authorString}}]\nJournal: {{journaltitle}}\nreadTime: <% tp.file.creation_date() %>\n关键词：{{keywords}}\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n**阅读PDF：** [PDF]({{zoteroSelectURI}})\n**URL：** {{URL}}\n## 摘要\n{{abstract}}",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "E:\\Zotero\\我的文库.bib"
