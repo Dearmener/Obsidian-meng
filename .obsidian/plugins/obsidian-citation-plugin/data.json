@@ -2,7 +2,7 @@
   "citationExportFormat": "biblatex",
   "literatureNoteTitleTemplate": "{{title}}",
   "literatureNoteFolder": "1-Paper",
-  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{date}}\npublisher: [{{publisher}}]\npublisherString: [{{authorString}}]\nJournal: {{journaltitle}}\nreadTime: <% tp.file.creation_date() %>\n关键词：{{entry.data.fields.keywords}}\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n**阅读PDF：** [PDF]({{zoteroSelectURI}})\n**URL：** {{URL}}\n\n关键词:{{#each entry.data.fields.keywords}}{{#if @last}}[[{{this}}]]{{else}}[[{{this}}]], {{/if}}{{/each}}\n## 摘要\n{{abstract}}",
+  "literatureNoteContentTemplate": "---\ntitle: {{title}}\nauthors: {{authorString}}\nyear: {{date}}\npublisher: [{{publisher}}]\npublisherString: [{{authorString}}]\nJournal: {{journaltitle}}\nreadTime: <% tp.file.creation_date() %>\n关键词：{{entry.data.fields.keywords}}\nstatus: 未阅读\n---\n[[<% tp.file.creation_date(\"YYYY-MM-DD\") %>]]\n**阅读PDF：** [PDF]({{zoteroSelectURI}})\n**URL：** {{URL}}\n\n关键词:{{#each entry.data.fields.keywords}}{{#if @last}}#{{this}}{{else}}#{{this}}, {{/if}}{{/each}}\n\n## 摘要\n{{abstract}}",
   "markdownCitationTemplate": "[@{{citekey}}]",
   "alternativeMarkdownCitationTemplate": "@{{citekey}}",
   "citationExportPath": "E:\\Zotero\\我的文库.bib"
