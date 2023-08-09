@@ -85,3 +85,5 @@ $$
 $$\nabla \times \vec{E} = -\frac{\partial \vec{B}}{\partial t}$$
 
 $$\nabla \times \vec{B} = \mu_0\left(\vec{J}+\epsilon_0\frac{\partial \vec{E}}{\partial t}\right)$$
+
+使用latex编写一个香农定理放在下方，并给出每个字母的含义
