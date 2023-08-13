@@ -10,5 +10,7 @@
   "obsidian-excalidraw-plugin",
   "quick-latex",
   "obsidian-textgenerator-plugin",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-kanban",
+  "obsidian-style-settings"
 ]
