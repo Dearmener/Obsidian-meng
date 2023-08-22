@@ -65,6 +65,17 @@
         "fileSize": "",
         "icon": {}
       }
+    },
+    {
+      "id": "60a28ca215b033b2",
+      "parent": 0,
+      "droppable": true,
+      "text": "提升4倍工作效率！——如何善用Excalidraw插件的脚本功能 - 经验分享 - Obsidian 中文论坛",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
     }
   ]
 }
