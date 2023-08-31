@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"link","url":"https://www.caa.go.jp/en/about_us/topics/alpszh001/","id":"32065cb624152b36","x":-440,"y":-432,"width":698,"height":572},
+		{"type":"file","file":"9-Attachment/Pasted image 20230825010736.jpg","id":"5623337c4e2ba068","x":-440,"y":180,"width":560,"height":1553},
+		{"type":"link","url":"https://m.mp.oeeee.com/a/BAAFRD000020230822834992.html","id":"9fd6233f58d32256","x":380,"y":-432,"width":460,"height":572},
+		{"type":"text","text":"## 日本方面\n日方认为核废水中的核素通过ALPS处理之后，可以有效的过滤除氚元素之外的元素，且氚元素的含量能达到排放标准","id":"903561c77c6fbc47","x":-442,"y":-580,"width":700,"height":120},
+		{"type":"text","text":"## 实际情况\n目前存储了134万吨核污染水，仅有30%的污水通过了ALPS处理，且核污染水中含有的多数元素尚无有效处理技术","id":"320d6731730bbaa4","x":380,"y":-600,"width":460,"height":140},
+		{"type":"link","url":"https://www.koryu.or.jp/tw/publications/alps/qa/#4","id":"52434a77e00e131a","x":173,"y":180,"width":875,"height":641}
+	],
+	"edges":[
+		{"id":"e9a650da6cce2b12","fromNode":"32065cb624152b36","fromSide":"right","toNode":"9fd6233f58d32256","toSide":"left"},
+		{"id":"d80ffffef4a77f54","fromNode":"52434a77e00e131a","fromSide":"top","toNode":"32065cb624152b36","toSide":"right"}
+	]
+}

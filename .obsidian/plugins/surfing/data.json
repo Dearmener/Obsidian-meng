@@ -1,5 +1,5 @@
 {
-  "defaultSearchEngine": "duckduckgo",
+  "defaultSearchEngine": "google",
   "customSearchEngine": [
     {
       "name": "duckduckgo",
@@ -25,7 +25,7 @@
   "useIconList": true,
   "darkMode": false,
   "bookmarkManager": {
-    "openBookMark": false,
+    "openBookMark": true,
     "saveBookMark": false,
     "sendToReadWise": false,
     "pagination": "12",
@@ -45,10 +45,10 @@
   },
   "treeData": [
     {
-      "id": "bf8dc2830e532d2f",
+      "id": "aee4f3456a5eb99a",
       "parent": 0,
       "droppable": true,
-      "text": "1. 下载镜像 · 国光的黑苹果安装教程",
+      "text": "flomo",
       "data": {
         "fileType": "site",
         "fileSize": "",
@@ -56,21 +56,10 @@
       }
     },
     {
-      "id": "9f29e16dd7169d61",
+      "id": "7ac31945843b7200",
       "parent": 0,
       "droppable": true,
-      "text": "黑果小兵的部落阁",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "60a28ca215b033b2",
-      "parent": 0,
-      "droppable": true,
-      "text": "提升4倍工作效率！——如何善用Excalidraw插件的脚本功能 - 经验分享 - Obsidian 中文论坛",
+      "text": "New Tab",
       "data": {
         "fileType": "site",
         "fileSize": "",
