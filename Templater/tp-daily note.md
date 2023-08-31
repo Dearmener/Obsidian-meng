@@ -6,7 +6,7 @@ modification date: <% tp.file.last_modified_date("dddd Do MMMM YYYY HH:mm:ss") %
 
 ## 今日到期
 ```dataview
-table dateformat(date(split(creationDate," ")[0]),"yyyy-MM-dd") as 创建时间,stauts as "状态",deadLine as "期限" from "101-任务" where dateformat(date(deadLine),"yyyy-MM-dd") = dateformat(date(today),"yyyy-MM-dd") sort deadLine asc,priority asc
+table dateformat(date(split(creationDate," ")[0]),"yyyy-MM-dd") as 创建时间,stauts as "状态",deadLine as "期限" from "101-任务" where dateformat(date(<%tp.file.title%>),"yyyy-MM-dd") = dateformat(date(<%tp.file.title%>),"yyyy-MM-dd") sort deadLine asc,priority asc
 ```
 
 ## 今日新建
