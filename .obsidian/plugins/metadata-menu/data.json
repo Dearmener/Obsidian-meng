@@ -1,5 +1,20 @@
 {
-  "presetFields": [],
+  "presetFields": [
+    {
+      "name": "status",
+      "options": {
+        "valuesList": {
+          "1": "未完成",
+          "2": "已完成"
+        },
+        "sourceType": "ValuesList",
+        "valuesListNotePath": "",
+        "valuesFromDVQuery": ""
+      },
+      "id": "1",
+      "type": "Select"
+    }
+  ],
   "fileClassQueries": [],
   "displayFieldsInContextMenu": true,
   "globallyIgnoredFields": [],
