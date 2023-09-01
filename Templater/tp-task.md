@@ -1,4 +1,3 @@
-
 ---
 creationDate: <% tp.file.creation_date() %>
 priority: <% 
