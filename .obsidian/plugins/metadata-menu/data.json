@@ -4,7 +4,7 @@
       "name": "status",
       "options": {
         "valuesList": {
-          "1": "To Do",
+          "1": "To Do✈",
           "2": "Working🏃‍",
           "3": "Done✌"
         },
