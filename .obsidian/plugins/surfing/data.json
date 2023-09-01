@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "68e03c1926bfeb94",
+      "parent": 0,
+      "droppable": true,
+      "text": "我来 wolai - 不仅仅是未来的云端协作平台与个人笔记",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
