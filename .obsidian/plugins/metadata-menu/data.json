@@ -13,7 +13,12 @@
         "valuesFromDVQuery": ""
       },
       "id": "1",
-      "type": "Select"
+      "type": "Select",
+      "command": {
+        "id": "insert__presetField__status",
+        "icon": "list-plus",
+        "label": "Insert status field"
+      }
     }
   ],
   "fileClassQueries": [],
