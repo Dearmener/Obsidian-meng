@@ -4,6 +4,6 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "status": "checkbox",
-    "priority": "multitext"
+    "priority": "text"
   }
 }
