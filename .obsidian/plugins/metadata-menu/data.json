@@ -4,9 +4,9 @@
       "name": "status",
       "options": {
         "valuesList": {
-          "1": "未完成",
-          "2": "进行中🏃‍",
-          "3": "已完成✌"
+          "1": "To Do",
+          "2": "Working🏃‍",
+          "3": "Done✌"
         },
         "sourceType": "ValuesList",
         "valuesListNotePath": "",
