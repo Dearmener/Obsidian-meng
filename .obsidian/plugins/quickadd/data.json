@@ -29,9 +29,23 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "2472852a-6312-4c2b-8684-674abfb98ede",
+      "name": "修改状态",
+      "type": "Macro",
+      "command": true,
+      "macroId": "220a4172-58ae-4dc5-a236-6bf37cc8abe6"
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "修改状态",
+      "id": "220a4172-58ae-4dc5-a236-6bf37cc8abe6",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",

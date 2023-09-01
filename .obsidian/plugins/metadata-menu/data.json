@@ -5,7 +5,8 @@
       "options": {
         "valuesList": {
           "1": "未完成",
-          "2": "已完成"
+          "2": "进行中🏃‍",
+          "3": "已完成✌"
         },
         "sourceType": "ValuesList",
         "valuesListNotePath": "",
