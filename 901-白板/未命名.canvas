@@ -5,7 +5,8 @@
 		{"id":"e2192cba184839d4","x":20,"y":-80,"width":400,"height":338,"type":"file","file":"9-Attachment/Pasted image 20230906164358.png"},
 		{"id":"2a72545202a0dcb6","x":20,"y":-160,"width":250,"height":60,"type":"text","text":"# 专业选修课"},
 		{"id":"3bae99244c93060a","x":-460,"y":258,"width":377,"height":400,"type":"file","file":"9-Attachment/Pasted image 20230906164704.png"},
-		{"id":"45acca450035a5d2","x":-458,"y":160,"width":373,"height":60,"type":"text","text":"# 专业基础课（数学类）"}
+		{"id":"45acca450035a5d2","x":-458,"y":160,"width":373,"height":60,"type":"text","text":"# 专业基础课（数学类）"},
+		{"id":"29378ee191f48089","x":20,"y":320,"width":578,"height":280,"type":"file","file":"9-Attachment/Pasted image 20230906214407.png"}
 	],
 	"edges":[]
 }
