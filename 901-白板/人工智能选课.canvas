@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"06553d702b38e2e5","type":"text","text":"# 专业基础课","x":-460,"y":-160,"width":250,"height":60},
+		{"id":"c39309b1ae792792","type":"file","file":"9-Attachment/Pasted image 20230906164309.png","x":-460,"y":-80,"width":400,"height":193},
+		{"id":"e2192cba184839d4","type":"file","file":"9-Attachment/Pasted image 20230906164358.png","x":20,"y":-80,"width":400,"height":338},
+		{"id":"2a72545202a0dcb6","type":"text","text":"# 专业选修课","x":20,"y":-160,"width":250,"height":60},
+		{"id":"3bae99244c93060a","type":"file","file":"9-Attachment/Pasted image 20230906164704.png","x":-460,"y":258,"width":377,"height":400},
+		{"id":"45acca450035a5d2","type":"text","text":"# 专业基础课（数学类）","x":-458,"y":160,"width":373,"height":60},
+		{"id":"29378ee191f48089","type":"file","file":"9-Attachment/Pasted image 20230906214407.png","x":20,"y":320,"width":578,"height":280}
+	],
+	"edges":[]
+}
