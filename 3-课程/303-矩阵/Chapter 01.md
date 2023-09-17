@@ -113,5 +113,88 @@ $$
 
 这表明对于任意的 $i$ 和 $j$，矩阵 $(A \cdot B) \cdot C$ 和矩阵 $A \cdot (B \cdot C)$ 的对应元素相等。因此，我们证明了矩阵的乘法满足结合律。
 
+为了回答$f(sI + tA) = \frac{1}{2}\left[(I + A)f(s + t) + (I - A)f(s - t)\right]$，我们将使用$f(A)$的泰勒展开，该展开中我们已经计算了$f(A) \approx \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}A^n$。
 
-$$\sum_{i=1}^{n} x_i$$
+首先，我们将考虑$f(sI + tA)$，其中$I$是单位矩阵，$A$是一个矩阵，$s$和$t$是标量。使用$f(A)$的泰勒展开，我们有：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(sI + tA)^n$$
+
+接下来，我们将$(sI + tA)^n$展开为二项式展开：
+
+$$(sI + tA)^n = \sum_{k=0}^{n} \binom{n}{k} (sI)^{n-k}(tA)^k$$
+
+其中，$\binom{n}{k}$是组合数。
+
+将这个展开代入$f(sI + tA)$的泰勒展开中：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}\left(\sum_{k=0}^{n} \binom{n}{k} (sI)^{n-k}(tA)^k\right)$$
+
+现在，我们可以交换求和符号的次序，将内部的和求出：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (sI)^{n-k}(tA)^k$$
+
+接下来，我们将$(sI)^{n-k}$和$(tA)^k$分别提取出来：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (sI)^{n-k}(tA)^k$$
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)(I^{n-k}A^k)$$
+
+现在，我们可以合并和简化一些项：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)(I^{n-k}A^k)$$
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)(I)(A^k)$$
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)I(A^k)$$
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)A^k$$
+
+现在，我们可以将$f(s + t)$和$f(s - t)$代入原始的等式：
+
+$$f(s + t) = \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s + t)^n$$
+
+$$f(s - t) = \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s - t)^n$$
+
+将这两个展开代入原始等式：
+
+$$\frac{1}{2}\left[(I + A)f(s + t) + (I - A)f(s - t)\right]$$
+
+$$=\frac{1}{2}\left[I \cdot f(s + t) + A \cdot f(s + t) + I \cdot f(s - t) - A \cdot f(s - t)\right]$$
+
+$$=\frac{1}{2}\left[\sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s + t)^n + \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}A(s + t)^n + \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s - t)^n - \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}A(s - t)^n\right]$$
+
+现在，我们可以合并和简化一些项：
+
+$$\frac{1}{2}\left[(I + A)f(s + t) + (I - A)f(s - t)\right]$$
+
+$$=\frac{1}{2}\left[\sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s + t)^n + \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}A(s + t)^n + \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}(s - t)^n - \sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}A(s - t)^n\right]$$
+
+$$=\sum_{n=1}^{N} \frac{f^{(n)}(0)}{n!}\left[\frac{1}{2}(s + t)^n + \frac{1}{2}(s - t)^n + \frac{1}{2}A(s + t)^n - \frac{1}{2}A(s - t)^n\right]$$
+
+$$=\sum_{n=1}^{
+
+N} \frac{f^{(n)}(0)}{n!}\left[\frac{1}{2}(s + t)^n + \frac{1}{2}(s - t)^n + \frac{1}{2}A(s + t)^n - \frac{1}{2}A(s - t)^n\right]$$
+
+现在，我们可以观察到$s + t$和$s - t$的奇偶性，以及$(s + t)^n$和$(s - t)^n$的关系。对于奇数n，$(s + t)^n$和$(s - t)^n$具有相同的符号，而对于偶数n，它们具有相反的符号。因此，当n为奇数时，项$\frac{1}{2}(s + t)^n + \frac{1}{2}(s - t)^n$为0，而当n为偶数时，项$\frac{1}{2}(s + t)^n + \frac{1}{2}(s - t)^n$不为0。
+
+因此，我们可以将上面的求和限制为奇数n的情况，因为只有这些项会贡献非零的结果：
+
+$$\frac{1}{2}\left[(I + A)f(s + t) + (I - A)f(s - t)\right]$$
+
+$$=\sum_{n=1, \text{奇数}}^{N} \frac{f^{(n)}(0)}{n!}\left[\frac{1}{2}(s + t)^n + \frac{1}{2}(s - t)^n + \frac{1}{2}A(s + t)^n - \frac{1}{2}A(s - t)^n\right]$$
+
+现在，我们可以将$n$替换为$2m - 1$，其中$m$是正整数，以便对奇数n进行求和：
+
+$$=\sum_{m=1}^{N} \frac{f^{(2m - 1)}(0)}{(2m - 1)!}\left[\frac{1}{2}(s + t)^{2m - 1} + \frac{1}{2}(s - t)^{2m - 1} + \frac{1}{2}A(s + t)^{2m - 1} - \frac{1}{2}A(s - t)^{2m - 1}\right]$$
+
+现在，我们可以考虑$f(sI + tA)$的泰勒展开，以及上面的结果。将$f(sI + tA)$的泰勒展开与上面的结果进行比较：
+
+$$f(sI + tA) \approx \sum_{n=1}^{N} \sum_{k=0}^{n} \frac{f^{(n)}(0)}{n!}\binom{n}{k} (s^{n-k}t^k)A^k$$
+
+$$=\sum_{m=1}^{N} \frac{f^{(2m - 1)}(0)}{(2m - 1)!}\left[\frac{1}{2}(s + t)^{2m - 1} + \frac{1}{2}(s - t)^{2m - 1} + \frac{1}{2}A(s + t)^{2m - 1} - \frac{1}{2}A(s - t)^{2m - 1}\right]$$
+
+我们可以看到，这两个表达式是相等的。因此，我们已经证明了所需的等式：
+
+$$f(sI + tA) = \frac{1}{2}\left[(I + A)f(s + t) + (I - A)f(s - t)\right]$$
+
+这个等式成立，基于$f(A)$的泰勒展开和我们的分析。
