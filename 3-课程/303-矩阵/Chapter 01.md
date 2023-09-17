@@ -55,54 +55,60 @@ $$
 这样，您就得到了矩阵 $A$ 的复数共轭矩阵 $A^* 和共轭转置矩阵 A^H$。这两个矩阵在复数线性代数和信号处理等领域中具有重要作用。
 
 矩阵的乘法结合律证明：
-当使用Markdown格式回答问题时，我们可以按照以下方式呈现证明矩阵的乘法左分配率的过程：
+对不起，Markdown本身不能直接解析LaTeX数学公式，但您可以在Markdown中插入LaTeX数学公式，并使用支持LaTeX的Markdown渲染器（如MathJax或KaTeX）来呈现这些公式。以下是使用Markdown格式回答证明矩阵的乘法结合律的示例：
 
 首先，我们要证明的等式是：
 
-\[
-A \cdot (B + C) = A \cdot B + A \cdot C
-\]
+$$
+(A \cdot B) \cdot C = A \cdot (B \cdot C)
+$$
 
-其中，\(A\)、\(B\) 和 \(C\) 是矩阵，\(\cdot\) 表示矩阵乘法。
+其中，$A$, $B$, 和 $C$ 是矩阵，$\cdot$ 表示矩阵乘法。
 
 我们可以使用矩阵乘法的定义来证明这个等式。矩阵乘法的定义是：
 
-如果 \(A\) 是一个 \(m \times n\) 的矩阵，\(B\) 是一个 \(n \times p\) 的矩阵，那么它们的乘积 \(AB\) 是一个 \(m \times p\) 的矩阵，其元素由以下规则定义：
+如果 $A$ 是一个 $m \times n$ 的矩阵，$B$ 是一个 $n \times p$ 的矩阵，那么它们的乘积 $AB$ 是一个 $m \times p$ 的矩阵，其元素由以下规则定义：
 
-\[
+$$
 (AB)_{ij} = \sum_{k=1}^{n} (A_{ik} \cdot B_{kj})
-\]
+$$
 
-现在，让我们证明左分配率：
+现在，让我们证明结合律：
 
-首先，我们计算 \(A \cdot (B + C)\) 的第 \(i\) 行第 \(j\) 列的元素，即 \((A \cdot (B + C))_{ij}\)：
+首先，我们计算 $(A \cdot B) \cdot C$ 的第 $i$ 行第 $j$ 列的元素，即 $((A \cdot B) \cdot C)_{ij}$：
 
-\[
-(A \cdot (B + C))_{ij} = \sum_{k=1}^{n} (A_{ik} \cdot (B + C)_{kj})
-\]
+$$
+((A \cdot B) \cdot C)_{ij} = \sum_{k=1}^{n} ((A \cdot B)_{ik} \cdot C_{kj})
+$$
 
-现在，我们可以将 \(B + C\) 展开：
+现在，我们可以计算 $A \cdot B$ 的值，它是一个 $m \times p$ 的矩阵，所以我们可以表示为：
 
-\[
-(A \cdot (B + C))_{ij} = \sum_{k=1}^{n} (A_{ik} \cdot (B_{kj} + C_{kj}))
-\]
+$$
+(A \cdot B)_{ik} = \sum_{l=1}^{n} (A_{il} \cdot B_{lk})
+$$
 
-现在，应用分配律：
+将这个值代入前面的等式中：
 
-\[
-(A \cdot (B + C))_{ij} = \sum_{k=1}^{n} (A_{ik} \cdot B_{kj} + A_{ik} \cdot C_{kj})
-\]
+$$
+((A \cdot B) \cdot C)_{ij} = \sum_{k=1}^{n} (\sum_{l=1}^{n} (A_{il} \cdot B_{lk}) \cdot C_{kj})
+$$
 
-我们可以分别计算两个求和项：
+现在，我们可以交换求和的次序，这是因为矩阵乘法满足分配律和结合律：
 
-第一项：\(\sum_{k=1}^{n} (A_{ik} \cdot B_{kj})\) 对应于矩阵 \(A \cdot B\) 的第 \(i\) 行第 \(j\) 列元素。
+$$
+((A \cdot B) \cdot C)_{ij} = \sum_{k=1}^{n} (\sum_{l=1}^{n} (A_{il} \cdot B_{lk}) \cdot C_{kj}) = \sum_{k=1}^{n} (A_{il} \cdot (\sum_{l=1}^{n} (B_{lk} \cdot C_{kj})))
+$$
 
-第二项：\(\sum_{k=1}^{n} (A_{ik} \cdot C_{kj})\) 对应于矩阵 \(A \cdot C\) 的第 \(i\) 行第 \(j\) 列元素。
+现在，我们可以看到 $\sum_{l=1}^{n} (B_{lk} \cdot C_{kj})$ 的部分对应于矩阵 $B \cdot C$ 的第 $l$ 行第 $j$ 列元素：
+
+$$
+\sum_{l=1}^{n} (B_{lk} \cdot C_{kj}) = (B \cdot C)_{lj}
+$$
 
 因此，我们得出结论：
 
-\[
-(A \cdot (B + C))_{ij} = (A \cdot B)_{ij} + (A \cdot C)_{ij}
-\]
+$$
+((A \cdot B) \cdot C)_{ij} = \sum_{k=1}^{n} (A_{il} \cdot (B \cdot C)_{lj})
+$$
 
-这表明对于任意的 \(i\) 和 \(j\)，矩阵 \(A \cdot (B + C)\) 和矩阵 \(A \cdot B + A \cdot C\) 的对应元素相等。因此，我们证明了矩阵的乘法满足左分配率。
+这表明对于任意的 $i$ 和 $j$，矩阵 $(A \cdot B) \cdot C$ 和矩阵 $A \cdot (B \cdot C)$ 的对应元素相等。因此，我们证明了矩阵的乘法满足结合律。
