@@ -45,10 +45,10 @@
   },
   "treeData": [
     {
-      "id": "0cd0bbfe48a45dc4",
+      "id": "b302ffab9b642ceb",
       "parent": 0,
       "droppable": true,
-      "text": "New Tab",
+      "text": "ChatGPT",
       "data": {
         "fileType": "site",
         "fileSize": "",
