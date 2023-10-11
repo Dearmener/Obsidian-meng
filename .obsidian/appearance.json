@@ -4,7 +4,7 @@
     "translate"
   ],
   "cssTheme": "Things",
-  "textFontFamily": "LXGW WenKai,JetBrains Mono",
+  "textFontFamily": "JetBrains Mono,LXGW WenKai",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "moonstone",
   "baseFontSize": 16
