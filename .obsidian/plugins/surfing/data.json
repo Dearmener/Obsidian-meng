@@ -45,10 +45,32 @@
   },
   "treeData": [
     {
-      "id": "0cd0bbfe48a45dc4",
+      "id": "5a60bd9ecb92f665",
       "parent": 0,
       "droppable": true,
-      "text": "New Tab",
+      "text": "黑苹果折腾日记1:MacOS下禁用N卡 - 知乎",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "930908cb1d331d4e",
+      "parent": 0,
+      "droppable": true,
+      "text": "GitHub - cxyzhangbin/Hackintosh-B760M-13600KF-6650XT: Hackintosh EFI information for MS B760M and i5-13600KF and 6650XT and AX211",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "fc483574b272b082",
+      "parent": 0,
+      "droppable": true,
+      "text": "寻找硬件 - 国光的黑苹果安装教程：手把手教你配置 OpenCore",
       "data": {
         "fileType": "site",
         "fileSize": "",
