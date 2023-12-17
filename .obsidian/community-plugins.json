@@ -9,12 +9,18 @@
   "obsidian-zotero-desktop-connector",
   "obsidian-excalidraw-plugin",
   "quick-latex",
-  "obsidian-textgenerator-plugin",
   "table-editor-obsidian",
   "obsidian-kanban",
   "obsidian-style-settings",
   "surfing",
   "quickadd",
   "buttons",
-  "metadata-menu"
+  "obsidian-livesync",
+  "wucai-highlights-official",
+  "cmdr",
+  "obsidian-outliner",
+  "obsidian-projects",
+  "nldates-obsidian",
+  "editor-width-slider",
+  "copilot"
 ]

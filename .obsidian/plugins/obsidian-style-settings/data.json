@@ -1,0 +1,6 @@
+{
+  "sanctum@@file-line-width": 44,
+  "sanctum@@h1-weight": "800",
+  "sanctum@@h2-weight": "700",
+  "sanctum@@active-line-accent": "rgba(var(--color-accent-rgb), .3)"
+}

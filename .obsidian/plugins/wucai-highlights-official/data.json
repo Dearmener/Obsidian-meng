@@ -1,0 +1,43 @@
+{
+  "token": "eyJhcHBJZCI6MjAsImFwcEtleSI6InBmbzN0OGF1NTFyMXE0YXVxeXF5dXIiLCJhcHBTZWNyZXQiOiJBd0dPUzFyNWRrSnJrTVpBIiwiZXgiOiIifQ==.627c732fc3210c377d0e4bafa7213a6d",
+  "wuCaiDir": "WuCai",
+  "frequency": "0",
+  "triggerOnLoad": true,
+  "lastSyncFailed": true,
+  "refreshNotes": false,
+  "notesToRefresh": [],
+  "reimportShowConfirmation": true,
+  "lastCursor": "eyJsYXN0SGlnaGxpZ2h0UEtJRCI6MCwibG5pIjowLCJja1BLSUQiOjAsImNrTklEIjowLCJja1QiOjAsInMiOjE2OTk4ODg0Mzk0MTU4NDV9",
+  "dataVersion": 0,
+  "downloadEP": "https://marker.dotalk.cn",
+  "notePaths": {
+    "H8237F2": "WuCai/2023/10/wucai-2023-10-19-H8237F2.md",
+    "H8237FM": "WuCai/2023/10/wucai-2023-10-19-H8237FM.md",
+    "H8HEAEM": "WuCai/2023/10/wucai-2023-10-23-H8HEAEM.md",
+    "H8HE9KE": "WuCai/2023/10/wucai-2023-10-24-H8HE9KE.md",
+    "H8H6BD2": "WuCai/2023/10/wucai-2023-10-25-H8H6BD2.md",
+    "H8HCHCE": "WuCai/2023/10/wucai-2023-10-26-H8HCHCE.md",
+    "H8H5839": "WuCai/2023/10/wucai-2023-10-29-H8H5839.md",
+    "H8H5A62": "WuCai/2023/10/wucai-2023-10-30-H8H5A62.md",
+    "H8H9893": "WuCai/2023/11/wucai-2023-11-02-H8H9893.md",
+    "H8H7FKE": "WuCai/2023/11/wucai-2023-11-08-H8H7FKE.md",
+    "H8H7FA6": "WuCai/2023/11/wucai-2023-11-08-H8H7FA6.md",
+    "H8HHM27": "WuCai/2023/11/wucai-2023-11-13-H8HHM27.md"
+  },
+  "exportConfig": {
+    "titleFormat": 2,
+    "titleTemplate": "{{ createat_ts | date(\"YYYY/MM\") }}/wucai-{{ createat_ts | date(\"YYYY-MM-DD\") }}",
+    "writeStyle": 1,
+    "titleStyle": 2,
+    "highlightStyle": 1,
+    "annotationStyle": 1,
+    "tagStyle": 1,
+    "haveWuCaiTag": 1,
+    "obTemplate": "---\n标题: \"{{title}}\"\nurl: {{url}}\n创建时间: {{createat}}\n更新时间: {{createat}}\n笔记ID: {{noteid}}\n收藏: {{isstar}}\n划线数量: {{highlightcount}}\n标签: {{trimtags}}\nobsidianUIMode: preview\n---\n\n# {{title}} \n\n#Wucai\n\n> [阅读原文]({{ url }})\n> [在五彩中查看]({{ wucaiurl }})\n\n{% if pagenote %}\n## 页面笔记\n{% block pagenote %}\n> [!Review]\n> {{pagenote | replace(\"\\n\", \"\\n> \") }}\n{% endblock %}\n{% endif %}\n\n## 划线列表\n{% block highlights %}\n{% for item in highlights %}\n{% set colorSymbol %}◇  {% endset %}\n{% set formattedHighlight %}\n{% if item.imageUrl %}\n![]({{item.imageUrl}})\n{% else %}\n<font color=\"{{ item.color }}\">{{ colorSymbol }}</font> {{ item.note | trim | replace(\"\\n\", \"\\n> \") }}\n{% endif %}\n{% endset %}\n{% if item.annonation %}\n> [!Annotation]\n> {{ formattedHighlight }}\n> {{ item.annonation }}\n{% else %}\n> [!Highlight] \n> {{ formattedHighlight }}\n{% endif %}\n{{ '---' }}\n\n{% endfor %}\n{% endblock %}\n\n{% if mdcontent %}\n{% block mdcontent %}\n\n---\n\n\n## 全文剪藏 %% fold %%\n{{mdcontent}}\n{% endblock %}\n{% endif %}",
+    "obTemplateVer": 0,
+    "pageMirrorStyle": 1,
+    "truncateTile255": 0,
+    "IgnoreEmptyNote": 1,
+    "obQuery": ""
+  }
+}

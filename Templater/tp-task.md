@@ -7,6 +7,7 @@ status: false
 deadLine: <% 
 await tp.system.prompt("输入截至日期",tp.date.now("YYYY-MM-DD HH:mm"))
 %>
+finishTime:
 ---
 <%*
 let title = tp.file.title

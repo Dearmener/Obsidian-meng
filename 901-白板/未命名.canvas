@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"fc88c96a75e40c1d","x":-600,"y":-146,"width":250,"height":60,"type":"text","text":"## 分类"},
+		{"id":"8cced5120bf1d5e0","x":-40,"y":-146,"width":250,"height":60,"type":"text","text":"## 回归"},
+		{"id":"883cd153fc75fb31","x":-327,"y":60,"width":287,"height":189,"type":"text","text":"- 对类别进行一位的有效编码\n- 是用均方损失训练 \n- 最大值作为预测 $\\hat y = argmaxO_j$"}
+	],
+	"edges":[
+		{"id":"63b19f1f30a372ac","fromNode":"8cced5120bf1d5e0","fromSide":"left","toNode":"fc88c96a75e40c1d","toSide":"right","label":"从回归到多类分类-均方损失"},
+		{"id":"16c8b3d70d984f31","fromNode":"883cd153fc75fb31","fromSide":"right","toNode":"8cced5120bf1d5e0","toSide":"bottom"},
+		{"id":"5631ff33e1c861f5","fromNode":"883cd153fc75fb31","fromSide":"left","toNode":"fc88c96a75e40c1d","toSide":"bottom"}
+	]
+}

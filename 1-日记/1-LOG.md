@@ -1,3 +1,6 @@
+## 已完成
 ```dataview
-table dateformat(date(file.name),"yyyy-MM-dd") as name from "1-日记" where file.name!="1-LOG" sort file.day desc
+list from "101-任务" where status group by deadLine as de
 ```
+
+

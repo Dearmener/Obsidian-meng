@@ -2,12 +2,15 @@
   display: inline-block;
   line-height: 24px;
 }
+
 .trans-chinese {
   display: inline-block;
   height: 24px;
   line-height: 24px;
-  text-decoration: underline; /* 添加下划线效果 */
+  text-decoration: underline;
+  /* 添加下划线效果 */
 }
+
 .trans-english {
   display: inline-block;
   float: right;
@@ -27,5 +30,30 @@ mark {
   background-color: transparent;
 }
 
-body{
+.inline-title {
+  text-align: center;
 }
+
+.cm-line {
+  text-indent: 3ch;
+  font-weight: 200 !important;
+  /* 设置段的下间距为10 */
+  /* margin-bottom: 10px; */
+}
+
+.HyperMD-header {
+  text-indent: 0ch;
+  text-align: center;
+}
+
+.hr {
+  text-indent: 0ch;
+}
+
+.HyperMD-codeblock {
+  text-indent: 0ch;
+}
+
+
+
+body {}

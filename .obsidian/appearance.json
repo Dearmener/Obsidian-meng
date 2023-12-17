@@ -3,9 +3,9 @@
   "enabledCssSnippets": [
     "translate"
   ],
-  "cssTheme": "Things",
-  "textFontFamily": "JetBrains Mono,LXGW WenKai",
+  "cssTheme": "Blue Topaz",
+  "textFontFamily": "JetBrains Mono,STFangSong",
   "monospaceFontFamily": "JetBrains Mono",
   "theme": "moonstone",
-  "baseFontSize": 16
+  "baseFontSize": 19
 }

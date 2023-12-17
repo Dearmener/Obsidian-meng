@@ -1,0 +1,254 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Projects - Demo Project",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 360
+              },
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "due",
+              "image",
+              "published",
+              "status",
+              "tags",
+              "weight"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Table",
+          "id": "176185db-0153-4835-8c2a-9fcfc5950015",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "status",
+            "priorityField": "weight"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Board",
+          "id": "31385268-1d45-46d6-80ce-c94dc4ea08cf",
+          "type": "board"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "dateField": "due",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Calendar",
+          "id": "370c0b8d-8802-4b18-8878-9a1e598d4521",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "coverField": "image"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "name": "Gallery",
+          "id": "9f8f9552-2273-48a5-83d2-9444213c8273",
+          "type": "gallery"
+        }
+      ],
+      "name": "Demo project",
+      "id": "1ac8441a-8960-427f-a791-ce1ae4744e86",
+      "path": "Projects - Demo Project"
+    },
+    {
+      "fieldConfig": {
+        "创建日期": {
+          "richText": true
+        },
+        "提交日期": {}
+      },
+      "defaultName": "",
+      "templates": [
+        "Templater/tp-task.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "101-任务",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 319
+              },
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "提交日期",
+              "创建日期",
+              "priority",
+              "status",
+              "finishTime"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "status",
+                "order": "asc",
+                "enabled": true
+              },
+              {
+                "field": "priority",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "814ce1b7-b6a9-4252-b5a3-c382728439e1",
+          "name": "所有任务",
+          "type": "table"
+        },
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 267
+              },
+              "path": {
+                "hide": true
+              }
+            },
+            "orderFields": [
+              "name",
+              "提交日期",
+              "path",
+              "priority",
+              "status",
+              "finishTime",
+              "创建日期"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "status",
+                "operator": "is-not-checked",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f1fbc8e1-a96f-43dd-8f52-61a90b342330",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "columns": {
+              "未设置状态": {
+                "weight": 0
+              }
+            },
+            "includeFields": [
+              "status"
+            ],
+            "groupByField": "priority"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a59b09b2-39db-480e-b2bd-9b88292aa1ad",
+          "name": "看板",
+          "type": "board"
+        }
+      ],
+      "id": "cf248981-939d-4a2e-a416-4dbc7712961c",
+      "name": "作业"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

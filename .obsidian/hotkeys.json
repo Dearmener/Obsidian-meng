@@ -14,5 +14,13 @@
       ],
       "key": "T"
     }
+  ],
+  "wucai-highlights-official:sync": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
   ]
 }

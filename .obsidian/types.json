@@ -4,6 +4,9 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "status": "checkbox",
-    "priority": "number"
+    "priority": "number",
+    "card_type": "multitext",
+    "deadLine": "datetime",
+    "创建日期": "datetime"
   }
 }
