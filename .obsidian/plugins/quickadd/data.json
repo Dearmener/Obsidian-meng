@@ -36,6 +36,36 @@
       "type": "Macro",
       "command": true,
       "macroId": "220a4172-58ae-4dc5-a236-6bf37cc8abe6"
+    },
+    {
+      "id": "056ca666-c56b-433e-a040-fb27aca07841",
+      "name": "创建笔记目录",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templater/db-note.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "db-note"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
@@ -50,7 +80,7 @@
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "1.4.0",
+  "version": "1.6.1",
   "disableOnlineFeatures": true,
   "ai": {
     "OpenAIApiKey": "",

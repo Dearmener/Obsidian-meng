@@ -1,5 +1,5 @@
 {
-  "openAIApiKey": "fk-rUiO8_2o_xnOY3KRJlqaKoqvz7m4UGIOBQvduVQgHrc",
+  "openAIApiKey": "pk-NJ77TidTA8uzB4tLXhfelZpwADGYBspICBYptXTWJ6M",
   "huggingfaceApiKey": "",
   "cohereApiKey": "",
   "anthropicApiKey": "",
@@ -8,17 +8,17 @@
   "azureOpenAIApiDeploymentName": "",
   "azureOpenAIApiVersion": "",
   "azureOpenAIApiEmbeddingDeploymentName": "",
-  "defaultModel": "gpt-3.5-turbo-16k",
-  "defaultModelDisplayName": "GPT-3.5 16K",
+  "defaultModel": "gpt-3.5-turbo",
+  "defaultModelDisplayName": "GPT-3.5",
   "temperature": 0.7,
   "maxTokens": 1000,
   "contextTurns": 3,
   "userSystemPrompt": "",
-  "openAIProxyBaseUrl": "http://127.0.0.1:8181/apiProxy123/v1",
+  "openAIProxyBaseUrl": "http://mgqustc.top/apiProxy123/v1",
   "localAIModel": "",
   "ttlDays": 30,
   "stream": true,
   "embeddingProvider": "openai",
   "defaultSaveFolder": "copilot-conversations",
-  "debug": false
+  "debug": true
 }

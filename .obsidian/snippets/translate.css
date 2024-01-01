@@ -42,8 +42,9 @@ mark {
 }
 
 .HyperMD-header {
-  text-indent: 0ch;
-  text-align: center;
+  text-indent:ch;
+  padding-bottom: 10px;
+  /* text-align: center; */
 }
 
 .hr {
